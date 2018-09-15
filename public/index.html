@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JSON web token with vanilla js</title>
+</head>
+
+<body>
+    <div class="input">
+        <label for="username">user name:</label>
+        <input id="username" name="name">
+        <label for="password">password:</label>
+        <input id="password" name="password">
+        <button onclick="getToken()">login</button>
+    </div>
+    <div id="token"></div>
+    <button onclick="getSecret()">get secret message</button>
+    <div id="result"></div>
+    <script src="jwt-vanilla.js"></script>
+</body>
+
+</html>
